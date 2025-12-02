@@ -118,6 +118,8 @@ aic_table <- aic_table %>% arrange(AIC)
 aic_table
 
 # 2b. The full model (with the temperature × refugia interaction) has the lowest AIC value, 
-#     more than 80 AIC units better than the next-best model. Because ΔAIC ≫ 2 for all other models, 
-#    the full model is overwhelmingly supported. This indicates that including the interaction term provides
-#    much better explanatory power and is necessary to describe the data.
+#   more than 80 AIC units better than the next-best model. Because ΔAIC ≫ 2 for all other models, 
+#   the full model is overwhelmingly supported. This indicates that including the interaction term provides
+#   much better explanatory power and is necessary to describe the data.
+# Ecologically: Cold-water refugia alter how activity declines with warming, allowing brook trout to maintain higher
+# rates under thermal stress. Ecologically, this suggests that refugia are a critical habitat feature that may enhance resilience to climate change.
